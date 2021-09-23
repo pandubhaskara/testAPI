@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
-const port=5000
+const port=8080
 const router= require('./routes')
 
 app.use(express.json())
-app.use('/', (req,res)=>{
+app.get('/', (req,res)=>{
     res.send('hello world')
 })
 
