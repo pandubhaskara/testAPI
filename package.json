@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.59.0",
+    "heroku-cli": "^7.0.9",
     "joi": "^17.4.2",
     "pg": "^8.7.1",
     "sequelize": "^6.6.5",

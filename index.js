@@ -4,9 +4,9 @@ const port=5000
 const router= require('./routes')
 
 app.use(express.json())
-// app.use('/', (req,res)=>{
-//     res.send('hello world')
-// })
+app.use('/', (req,res)=>{
+    res.send('hello world')
+})
 
 app.use('/api', router)
 
